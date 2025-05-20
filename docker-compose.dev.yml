@@ -1,0 +1,10 @@
+# version: "1.0"
+services:
+  web:
+    build:
+      context: '.'
+      target: 'development'
+    container_name: 'daas-design-dev'
+    restart: 'always'
+    ports:
+      - '3000:3000'

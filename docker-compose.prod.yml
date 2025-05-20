@@ -1,0 +1,13 @@
+# version: "1.0"
+services:
+  web:
+    build:
+      context: '.'
+      target: 'server'
+    container_name: 'daas-design-prod'
+    restart: 'always'
+    # volumes:
+    # - '/usr/src/app/node_modules'
+    ports:
+      - '8080:8080'
+      - '8443:8443'

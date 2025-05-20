@@ -1,0 +1,1293 @@
+/* Custom */
+
+iframe {
+    width: calc(96vw);
+    height: calc(100vh);
+}
+
+#applicationRunning iframe,
+#connectionRunning iframe,
+#environmentRunning iframe,
+#instanceRunning iframe,
+#objectStartSetup iframe {
+    width: calc(100vw);
+    height: calc(89.75vh);
+    position: fixed;
+}
+
+select,
+option {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    padding: 10px;
+}
+
+nav {
+    background-image: url('./assets/images/png/BackgroundNavigationBar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover;*/
+    background-color: #0E1451;
+    padding: 15px;
+}
+
+#dashboardUser > div:nth-child(2) {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+a,
+.link-daas-design,
+.all-data,
+#dashboardAdmin ul > li > span > svg,
+#environmentImage div > svg,
+#dashboardUser > div:nth-child(3) > div > div,
+#applicationStart > div:nth-child(2) > div > div,
+#environmentStart > div:nth-child(2) > div > div,
+#dashboardExpert > div:nth-child(2) > div > div,
+#demoOverview > div:nth-child(2) > div > div,
+#demoOverviewLinux > div:nth-child(2) > div > div,
+#demoOverviewWindows > div:nth-child(2) > div > div,
+#demoOverviewDocker > div:nth-child(2) > div > div,
+#applicationRunning > div:nth-child(2) > div > div,
+#connectionRunning > div:nth-child(2) > div > div,
+#environmentRunning > div:nth-child(2) > div > div,
+#instanceRunning > div:nth-child(2) > div > div,
+#objectBaseImageSetup > div:nth-child(2) > div > div,
+#objectEnvironmentSetup > div:nth-child(2) > div > div,
+#objectStartSetup > div:nth-child(2) > div > div {
+    cursor: pointer;
+}
+
+#error {
+    max-width: 400px;
+    margin: 150px auto;
+}
+
+#dashboardUser,
+#dashboardExpert,
+#applicationStart,
+#environmentStart,
+#demoOverview,
+#demoOverviewLinux,
+#demoOverviewWindows,
+#demoOverviewDocker,
+#dashboardAdmin,
+#dashboardAdminSettingsAdmin,
+#dashboardAdminSettingsUser,
+#monitoring,
+#desktop,
+#desktop-details,
+#desktop-groups,
+#environmentImage,
+#snapshotsOverview,
+#settingsOverview,
+#settingsOverviewVirtualEnvironment,
+#settingsOverviewConfigurationVirtualEnvironment,
+#settingsOverviewDocker,
+#settingsOverviewPhases,
+#settingsOverviewConnectionViewer,
+#settingsOverviewAuthentification,
+#settingsOverviewInstanceVirtualEnvironment,
+#settingsOverviewAdmins,
+#settingsOverviewUsers,
+#settingsOverviewAdminAssign,
+#settingsOverviewApps,
+#settingsOverviewFiles,
+#applicationRunning,
+#connectionRunning,
+#environmentRunning,
+#instanceRunning,
+#objectBaseImageSetup,
+#objectEnvironmentSetup,
+#objectStartSetup {
+    margin: 95px auto 0px auto;
+}
+
+#applicationRunning,
+#connectionRunning,
+#environmentRunning,
+#instanceRunning,
+#objectBaseImageSetup,
+#objectEnvironmentSetup,
+#objectStartSetup {
+    padding: 0px !important;
+}
+
+/*#applicationRunning,
+#connectionRunning,
+#environmentRunning,
+#instanceRunning,
+#objectStartSetup {
+    margin: 0px auto 0px auto !important;
+}*/
+
+#createBaseImage,
+#createDeployment,
+#createEnvironment,
+#runningApplicationSystem {
+    margin: 96px auto 0px auto;
+    padding: 0px;
+    min-height: calc(80vh);
+    overflow-x: hidden;
+}
+
+.right-position {
+    text-align: right;
+    padding-right: 7.5px;
+    background-color: #008000;
+}
+
+.right-position-bottom {
+    text-align: right;
+    padding-right: 7.5px;
+    background-color: #800000;
+}
+
+#dashboardUser > div:nth-child(3) > div,
+#dashboardExpert > div:nth-child(2) > div,
+#applicationStart > div:nth-child(2) > div,
+#environmentStart > div:nth-child(2) > div,
+#demoOverview > div:nth-child(2) > div,
+#demoOverviewLinux > div:nth-child(2) > div,
+#demoOverviewWindows > div:nth-child(2) > div,
+#demoOverviewDocker > div:nth-child(2) > div,
+#dashboardAdmin > div:nth-child(2) > div,
+#dashboardAdminSettingsAdmin > div:nth-child(2) > div,
+#dashboardAdminSettingsUser > div:nth-child(2) > div,
+#applicationRunning > div:nth-child(2) > div,
+#connectionRunning > div:nth-child(2) > div,
+#environmentRunning > div:nth-child(2) > div,
+#instanceRunning > div:nth-child(2) > div,
+#objectBaseImageSetup > div:nth-child(2) > div,
+#objectEnvironmentSetup > div:nth-child(2) > div,
+#objectStartSetup > div:nth-child(2) > div {
+    margin: 0px auto 15px auto;
+}
+
+#dashboardUser > div:nth-child(3) > div > div,
+#dashboardExpert > div:nth-child(2) > div > div,
+#applicationStart > div:nth-child(2) > div > div,
+#environmentStart > div:nth-child(2) > div > div,
+#demoOverview > div:nth-child(2) > div > div,
+#demoOverviewLinux > div:nth-child(2) > div > div,
+#demoOverviewWindows > div:nth-child(2) > div > div,
+#demoOverviewDocker > div:nth-child(2) > div > div,
+#dashboardAdmin > div:nth-child(2) > div > div,
+#dashboardAdminSettingsAdmin > div:nth-child(2) > div > div,
+#dashboardAdminSettingsUser > div:nth-child(2) > div > div,
+#applicationRunning > div:nth-child(2) > div > div,
+#connectionRunning > div:nth-child(2) > div > div,
+#environmentRunning > div:nth-child(2) > div > div,
+#instanceRunning > div:nth-child(2) > div > div,
+#objectBaseImageSetup > div:nth-child(2) > div > div,
+#objectEnvironmentSetup > div:nth-child(2) > div > div,
+#objectStartSetup > div:nth-child(2) > div > div {
+    padding: 100px 50px;
+    border: 2px solid #000;
+}
+
+#dashboardUser .link-daas-design > div,
+#dashboardExpert .link-daas-design > div,
+#applicationStart .link-daas-design > div,
+#environmentStart .link-daas-design > div,
+#demoOverview .link-daas-design > div,
+#demoOverviewLinux .link-daas-design > div,
+#demoOverviewWindows .link-daas-design > div,
+#demoOverviewDocker .link-daas-design > div,
+#applicationRunning .link-daas-design > div,
+#connectionRunning .link-daas-design > div,
+#environmentRunning .link-daas-design > div,
+#instanceRunning .link-daas-design > div,
+#objectBaseImageSetup .link-daas-design > div,
+#objectEnvironmentSetup .link-daas-design > div,
+#objectStartSetup .link-daas-design > div {
+    margin-top: 25px;
+}
+#demoOverview .link-daas-design > div {
+    margin-top: -2px;
+}
+
+#dashboardUser .link-daas-design svg,
+#dashboardExpert .link-daas-design svg,
+#applicationStart .link-daas-design svg,
+#environmentStart .link-daas-design svg,
+#demoOverview .link-daas-design svg,
+#demoOverviewLinux .link-daas-design svg,
+#demoOverviewWindows .link-daas-design svg,
+#demoOverviewDocker .link-daas-design svg,
+#applicationRunning .link-daas-design svg,
+#connectionRunning .link-daas-design svg,
+#environmentRunning .link-daas-design svg,
+#instanceRunning .link-daas-design svg,
+#objectBaseImageSetup .link-daas-design svg,
+#objectEnvironmentSetup .link-daas-design svg,
+#objectStartSetup .link-daas-design svg {
+    padding-left: 10px;
+    font-size: 18px !important;
+}
+
+#objectBaseImageSetup .row > div,
+#objectEnvironmentSetup .row > div,
+#objectStartSetup .row > div {
+    margin-bottom: 10px;
+}
+
+#demoOverviewLinux > div > div > div,
+#demoOverviewWindows > div > div > div,
+#demoOverviewDocker > div > div > div {
+    margin: 10px 0px;
+}
+
+#demoOverviewLinux > div > div > select,
+#demoOverviewWindows > div > div > select,
+#demoOverviewDocker > div > div > select {
+    margin-top: 10px;
+    padding: 8px;
+}
+
+#demoOverviewLinux iframe,
+#demoOverviewWindows iframe,
+#demoOverviewDocker iframe {
+    width: calc(99vw) !important;
+}
+
+#dashboard_info_details > div {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.info-text-space {
+    margin-left: 10px;
+}
+
+.bottom-footer-fix {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.bottom-footer-fix svg,
+.bottom-footer-fix-info svg,
+.bottom-footer-fix-refresh svg,
+.bottom-footer-fix-contact svg,
+.bottom-footer-fix-file svg,
+.bottom-footer-fix-monitoring svg {
+    font-size: 50px !important;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.bottom-footer-fix-monitoring {
+    position: fixed;
+    bottom: 10px;
+    right: 310px;
+    z-index: 1000;
+}
+
+.bottom-footer-fix-info {
+    position: fixed;
+    bottom: 10px;
+    right: 190px;
+    z-index: 1000;
+}
+
+.bottom-footer-fix-refresh {
+    position: fixed;
+    bottom: 10px;
+    right: 250px;
+    z-index: 1000;
+}
+
+.bottom-footer-fix-contact {
+    position: fixed;
+    bottom: 10px;
+    right: 70px;
+    z-index: 1000;
+}
+
+.bottom-footer-fix-file {
+    position: fixed;
+    bottom: 10px;
+    right: 130px;
+    z-index: 1000;
+}
+
+#dashboardUser button {
+    width: 100%;
+}
+
+.loading-spinner,
+.loading-spinner-main {
+    width: 150px;
+    margin: 0px auto;
+}
+
+.accordion .accordion-item:first-child,
+.accordion .accordion-item:last-child {
+    padding: 0 !important;
+    border-width: 1px !important;
+}
+
+.accordion .accordion-item:not(:first-child) {
+    padding: 0 !important;
+    border-bottom-width: 1px !important;
+    border-top-width: 0px !important;
+    border-left-width: 1px !important;
+    border-right-width: 1px !important;
+}
+
+/*.accordion .accordion-item:not(:last-child) {
+    padding: 0 !important;
+    border-bottom-width: 0px !important;
+    border-top-width: 1px !important;
+    border-left-width: 1px !important;
+    border-right-width: 1px !important;
+}*/
+
+.link-daas-design {
+    padding: 0px !important;
+    border: none !important;
+    color: #000 !important;
+    text-decoration: none !important;
+    width: 100%;
+    min-height: 70px;
+    margin-bottom: 10px;
+}
+
+.link-daas-design > div {
+    text-decoration: none !important;
+    color: #000 !important;
+    padding: 20px !important;
+    border: 2px solid #000 !important;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text-normal {
+    color: #000000 !important;
+}
+
+#dashboardUser svg,
+#dashboardExpert svg,
+#applicationStart svg,
+#environmentStart svg,
+#demoOverview svg,
+#demoOverviewLinux svg,
+#demoOverviewWindows svg,
+#demoOverviewDocker svg,
+#dashboardAdmin svg,
+#dashboardAdminSettingsAdmin svg,
+#dashboardAdminSettingsUser svg,
+#applicationRunning svg,
+#connectionRunning svg,
+#environmentRunning svg,
+#instanceRunning svg,
+#objectBaseImageSetup svg {
+    font-size: 80px;
+}
+
+#desktop ul,
+#desktop-details ul,
+#desktop-groups ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#desktop ul > li,
+#desktop-details ul > li,
+#desktop-groups ul > li {
+    margin: 15px auto;
+}
+
+#dashboardAdmin ul,
+#dashboardAdminSettingsAdmin ul,
+#dashboardAdminSettingsUser ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#dashboardAdmin ul > li,
+#dashboardAdminSettingsAdmin ul > li,
+#dashboardAdminSettingsUser ul > li {
+    margin: 15px auto;
+}
+
+#dashboardAdmin ul > li > span:nth-child(1),
+#dashboardAdminSettingsAdmin ul > li > span:nth-child(1),
+#dashboardAdminSettingsUser ul > li > span:nth-child(1) {
+    width: 90%;
+}
+
+#dashboardAdmin ul > li > span:nth-child(2),
+#dashboardAdmin ul > li > span:nth-child(3),
+#dashboardAdmin ul > li > span:nth-child(4),
+#dashboardAdminSettingsAdmin ul > li > span:nth-child(2),
+#dashboardAdminSettingsAdmin ul > li > span:nth-child(3),
+#dashboardAdminSettingsAdmin ul > li > span:nth-child(4),
+#dashboardAdminSettingsUser ul > li > span:nth-child(2),
+#dashboardAdminSettingsUser ul > li > span:nth-child(3),
+#dashboardAdminSettingsUser ul > li > span:nth-child(4) {
+    width: 5%;
+    text-align: center;
+}
+
+#settingsOverview ul > li > span:nth-child(1),
+#settingsOverviewVirtualEnvironment ul > li > span:nth-child(1),
+#settingsOverviewConfigurationVirtualEnvironment ul > li > span:nth-child(1),
+#settingsOverviewDocker ul > li > span:nth-child(1),
+#settingsOverviewPhases ul > li > span:nth-child(1),
+#settingsOverviewAdmins ul > li > span:nth-child(1),
+#settingsOverviewConnectionViewer ul > li > span:nth-child(1),
+#settingsOverviewAuthentification ul > li > span:nth-child(1),
+#settingsOverviewInstanceVirtualEnvironment ul > li > span:nth-child(1),
+#settingsOverviewAdmins ul > li > span:nth-child(1),
+#settingsOverviewUsers ul > li > span:nth-child(1),
+#settingsOverviewAdminAssign ul > li > span:nth-child(1),
+#settingsOverviewApps ul > li > span:nth-child(1),
+#settingsOverviewFiles ul > li > span:nth-child(1) {
+    width: 85%;
+}
+
+#settingsOverview ul > li > span:nth-child(2),
+#settingsOverviewVirtualEnvironment ul > li > span:nth-child(2),
+#settingsOverviewConfigurationVirtualEnvironment ul > li > span:nth-child(2),
+#settingsOverviewDocker ul > li > span:nth-child(2),
+#settingsOverviewPhases ul > li > span:nth-child(2),
+#settingsOverviewAdmins ul > li > span:nth-child(2),
+#settingsOverviewConnectionViewer ul > li > span:nth-child(2),
+#settingsOverviewAuthentification ul > li > span:nth-child(2),
+#settingsOverviewInstanceVirtualEnvironment ul > li > span:nth-child(2),
+#settingsOverviewAdmins ul > li > span:nth-child(2),
+#settingsOverviewUsers ul > li > span:nth-child(2),
+#settingsOverviewAdminAssign ul > li > span:nth-child(2),
+#settingsOverviewApps ul > li > span:nth-child(2),
+#settingsOverviewFiles ul > li > span:nth-child(2) {
+    width: 15%;
+    text-align: center;
+}
+
+#dashboardAdmin ul > li,
+#dashboardAdminSettingsUser ul > li,
+#dashboardAdminSettingsAdmin ul > li,
+#settingsOverview ul > li,
+#settingsOverviewAdmins ul > li,
+#settingsOverviewUsers ul > li {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#settingsOverviewVirtualEnvironment ul > li,
+#settingsOverviewConfigurationVirtualEnvironment ul > li,
+#settingsOverviewDocker ul > li,
+#settingsOverviewPhases ul > li,
+#settingsOverviewAdmins ul > li,
+#settingsOverviewConnectionViewer ul > li,
+#settingsOverviewAuthentification ul > li,
+#settingsOverviewInstanceVirtualEnvironment ul > li,
+#settingsOverviewAdminAssign ul > li,
+#settingsOverviewApps ul > li,
+#settingsOverviewFiles ul > li {
+    display: flex;
+    /*margin-bottom: 10px;*/
+}
+
+#settingsOverviewConfigurationVirtualEnvironment ul > li > button,
+#settingsOverviewDocker ul > li > button,
+#settingsOverviewPhases ul > li > button,
+#settingsOverviewAdmins ul > li > button,
+#settingsOverviewConnectionViewer ul > li > button,
+#settingsOverviewAuthentification ul > li > button,
+#settingsOverviewInstanceVirtualEnvironment ul > li > button,
+#settingsOverviewVirtualEnvironment ul > li > button,
+#settingsOverviewAdminAssign ul > li > button,
+#settingsOverviewApps ul > li > button,
+#settingsOverviewFiles ul > li > button {
+    padding: 6px !important;
+    font-size: 14px !important;
+}
+
+.is-bigger {
+    flex: 97.5% !important;
+}
+
+.is-close {
+    flex: 2.5% !important;
+}
+
+.design-main-container {
+    width: 100%;
+    display: flex;
+}
+
+.design-main-container-baseimage {
+    font-size: 12px !important;
+}
+
+.design-main-container-baseimage-details {
+    background-color: #008000;
+    height: calc(55vh);
+}
+
+.design-main-container-baseimage-system {
+    background-color: #800080;
+    min-height: calc(22.1vh);
+}
+
+.more-height {
+    background-color: #800080;
+    min-height: calc(27.15vh) !important;
+}
+
+.design-main-container-baseimage-details-table,
+.design-main-container-baseimage-system-table {
+    padding: 5px;
+    width: 100%;
+}
+
+.design-main-container-baseimage-details-table > div,
+.design-main-container-baseimage-system-table > div {
+    padding: 1px 5px;
+    text-align: center;
+}
+
+.design-main-container-baseimage-details-table > div {
+    background-color: #CCFFCC;
+}
+
+.design-main-container-baseimage-system-table > div {
+    background-color: #CC99FF;
+}
+
+.design-main-container-baseimage-details-table-headline,
+.design-main-container-baseimage-system-table-headline {
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+.design-main-container-baseimage-details-table-subheadline,
+.design-main-container-baseimage-system-table-subheadline {
+    border: 1px solid #000;
+}
+
+.design-main-container-baseimage-details-table-element-title,
+.design-main-container-baseimage-details-table-element-value,
+.design-main-container-baseimage-system-table-element-title,
+.design-main-container-baseimage-system-table-element-value {
+    border: 1px solid #000;
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+}
+
+.design-second-container {
+    width: 100%;
+    background-color: #800000;
+    height: calc(9.5vh);
+    border: 1px solid #000;
+}
+
+.is-bigger-main {
+    height: calc(85vh) !important;
+}
+
+.is-close-main {
+    height: calc(4.25vh);
+}
+
+.is-close-main-button,
+.is-close-sidebar {
+    display: none !important;
+}
+
+.design-second-container > .design-buttons-baseImage {
+    width: 100%;
+    display: flex;
+}
+
+.design-buttons-baseImage-element > div,
+#createDeployment .design-buttons-baseImage-element > div,
+#createEnvironment .design-buttons-baseImage-element > div,
+#runningApplicationSystem .design-buttons-baseImage-element > div {
+    margin: auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #f00;
+    padding: 10px;
+}
+
+
+.design-buttons-baseImage-element > div{
+    max-width: 200px;
+}
+
+#createDeployment .design-buttons-baseImage-element > div,
+#createEnvironment .design-buttons-baseImage-element > div,
+#runningApplicationSystem .design-buttons-baseImage-element > div {
+    max-width: 250px !important;
+}
+
+#runningApplicationSystem .design-second-container > .design-buttons-baseImage > div {
+    width: 50% !important;
+}
+
+#runningApplicationSystem #design-main-container-image > div:first-child {
+    height: 90%;
+}
+
+#runningApplicationSystem #design-main-container-image > div:last-child {
+    height: 10%;
+}
+
+#runningApplicationSystem #design-main-container-image > div:last-child {
+    width: 100% !important;
+}
+
+.design-main-container-controls {
+    width: 100%;
+    display: flex;
+}
+
+.design-main-container-controls > .design-buttons-baseImage-element {
+    width: 25%;
+    display: flex;
+}
+
+.design-main-container-controls > .design-buttons-baseImage-element > div {
+    background-color: #00ccff !important;
+    min-width: 100px !important;
+    text-align: center;
+}
+
+.design-main-container-controls {
+    background-color: #333399;
+    padding: 15px;
+}
+
+.design-main-container-baseimage-system-start-stop {
+    width: 100%;
+}
+
+.design-buttons-baseImage-element-custom {
+    width: 50%;
+    display: inline-block;
+}
+
+.design-buttons-baseImage-element-custom > div {
+    width: 75px;
+    margin: 10px auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #cc99ff;
+    padding: 10px;
+    text-align: center;
+}
+
+.base-image-linux,
+.base-image-windows {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+}
+
+.base-image-configurate-button {
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+
+.design-second-container > .design-buttons-baseImage > div {
+    width: 33.33%;
+    display: flex;
+}
+
+.design-main-container > div:first-child {
+    flex: 75%;
+    border: 1px solid #000;
+    height: calc(80vh);
+}
+
+#design-main-container-image > div {
+    width: 200px;
+    margin: auto;
+}
+
+.design-main-container > div:last-child {
+    flex: 25%;
+    border: 1px solid #000;
+}
+
+#dashboardAdmin ul > li > span > svg,
+#dashboardAdminSettingsUser ul > li > span > svg,
+#dashboardAdminSettingsAdmin ul > li > span > svg {
+    font-size: 20px !important;
+}
+
+#dashboardAdmin > div:nth-child(2) > div > div,
+#dashboardAdminSettingsUser > div:nth-child(2) > div > div,
+#dashboardAdminSettingsAdmin > div:nth-child(2) > div > div {
+    padding: 0px !important;
+    border: none !important;
+}
+
+#monitoring > div > div > div,
+#desktop > div > div > div,
+#desktop-details > div > div > div,
+#desktop-groups > div > div > div,
+#settingsOverview > div > div > div,
+#settingsOverviewVirtualEnvironment > div > div > div,
+#settingsOverviewConfigurationVirtualEnvironment > div > div > div,
+#settingsOverviewDocker > div > div > div,
+#settingsOverviewPhases > div > div > div,
+#settingsOverviewAdmins > div > div > div,
+#settingsOverviewConnectionViewer > div > div > div,
+#settingsOverviewAuthentification > div > div > div,
+#settingsOverviewInstanceVirtualEnvironment > div > div > div,
+#settingsOverviewAdmins > div > div > div,
+#settingsOverviewUsers > div > div > div,
+#settingsOverviewAdminAssign > div > div > div,
+#settingsOverviewApps > div > div > div,
+#settingsOverviewFiles > div > div > div {
+    margin: 15px auto;
+}
+
+#monitoring a,
+#desktop a,
+#desktop-details a,
+#desktop-groups a,
+#settingsOverview a,
+#settingsOverviewVirtualEnvironment a,
+#settingsOverviewConfigurationVirtualEnvironment a,
+#settingsOverviewDocker a,
+#settingsOverviewPhases a,
+#settingsOverviewAdmins a,
+#settingsOverviewConnectionViewer a,
+#settingsOverviewAuthentification a,
+#settingsOverviewInstanceVirtualEnvironment a,
+#settingsOverviewAdmins a,
+#settingsOverviewUsers a,
+#settingsOverviewAdminAssign a,
+#settingsOverviewApps a,
+#settingsOverviewFiles a {
+    text-decoration: none;
+    color: #000;
+}
+
+#monitoring a > span,
+#desktop a > span,
+#desktop-details a > span,
+#desktop-groups a > span,
+#settingsOverview a > span,
+#settingsOverviewVirtualEnvironment a > span,
+#settingsOverviewConfigurationVirtualEnvironment a > span,
+#settingsOverviewDocker a > span,
+#settingsOverviewPhases a > span,
+#settingsOverviewAdmins a > span,
+#settingsOverviewConnectionViewer a > span,
+#settingsOverviewAuthentification a > span,
+#settingsOverviewInstanceVirtualEnvironment a > span,
+#settingsOverviewAdmins a > span,
+#settingsOverviewUsers a > span,
+#settingsOverviewAdminAssign a > span,
+#settingsOverviewApps a > span,
+#settingsOverviewFiles a > span {
+    padding-left: 10px;
+}
+
+.header-small {
+    margin: 0 !important;
+}
+
+#monitoring .row:nth-child(3) > div,
+#desktop .row:nth-child(3) > div,
+#desktop-details .row:nth-child(3) > div,
+#desktop-groups .row:nth-child(3) > div,
+#settingsOverview .row:nth-child(3) > div,
+#settingsOverviewVirtualEnvironment .row:nth-child(3) > div,
+#settingsOverviewConfigurationVirtualEnvironment .row:nth-child(3) > div,
+#settingsOverviewDocker .row:nth-child(3) > div,
+#settingsOverviewPhases .row:nth-child(3) > div,
+#settingsOverviewAdmins .row:nth-child(3) > div,
+#settingsOverviewConnectionViewer .row:nth-child(3) > div,
+#settingsOverviewAuthentification .row:nth-child(3) > div,
+#settingsOverviewInstanceVirtualEnvironment .row:nth-child(3) > div,
+#settingsOverviewAdmins .row:nth-child(3) > div,
+#settingsOverviewUsers .row:nth-child(3) > div {
+    color: #fff;
+}
+
+#desktop .row:nth-child(3) > div,
+#desktop .row:nth-child(3) > div > div > ul > li > span {
+    color: #000 !important;
+}
+
+#environmentImage > .row:first-child,
+#snapshotsOverview > .row:first-child {
+    margin-bottom: 40px;
+}
+
+#environmentImage > .row:last-child,
+#snapshotsOverview > .row:last-child {
+    margin-top: 40px;
+}
+
+#snapshotsOverview > .row:nth-child(2) > div:first-child {
+    padding-top: 8px;
+}
+
+.hide-alert {
+    display: none;
+}
+
+.show-alert {
+    display: block;
+}
+
+.request-success-alert {
+    color: #fff;
+    background-color: #008000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.request-fail-alert {
+    color: #fff;
+    background-color: #800000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#login,
+#registration {
+    max-width: 400px;
+    margin: 200px auto;
+}
+
+#login form > div > div,
+#registration form > div > div {
+    margin: 10px auto;
+}
+
+#login > ul > li > button,
+#registration > ul > li > button {
+    width: 187px; /* 125px*/
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+}
+
+#submit {
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+/*.fixed-top {
+    padding: 0px 0px 1px 0px !important;
+}*/
+
+.disable-button {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.show-error {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.hide-error {
+    display: none;
+}
+
+.error-text {
+    display: none;
+}
+
+#login > div:nth-child(1) > div > h2,
+#registration > div:nth-child(1) > div > h2 {
+    text-align: center;
+}
+
+#login > form > div > div,
+#registration > form > div > div {
+    margin: 10px 0px;
+}
+
+.navbar > div {
+    margin: 0px 60px;
+}
+
+.modal-body .row > div {
+    margin: 10px 0px;
+}
+
+.modal-body button {
+    width: 100%;
+    text-align: center;
+}
+
+.button-demo {
+    width: 100%;
+}
+
+.demo-os-view,
+.user-app-env-view {
+    margin: 20px 0px;
+}
+
+.demo-os-view > div,
+.user-app-env-view > div {
+    padding: 10px 0px;
+}
+
+.select-field {
+    width: 100%;
+    padding: 5px;
+}
+
+#updating-user-data {
+    margin-bottom: 10px;
+}
+
+#updating-user-data ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#updating-user-data label,
+#updating-user-data input {
+    margin-bottom: 10px;
+    color: #000;
+    width: 100%;
+}
+
+#form-create-vm > .row > div,
+#form-delete-vm > .row > div,
+#form-start-vm > .row > div,
+#form-stop-vm > .row > div,
+#list-vm > div,
+#form-status-vm div,
+#form-config-vm div,
+#form-config-pre-vm > .row > div,
+#form-config-post-vm > .row > div,
+#form-snapshot-list-vm > .row > div,
+#form-snapshot-create-vm > .row > div,
+#form-snapshot-rollback-vm > .row > div,
+#form-clone-vm > .row > div,
+#form-convert-vm > .row > div,
+#form-node-dhcp > .row > div,
+#form-node-iptables > .row > div,
+#form-instance-app > .row > div,
+#form-instance-os-package > .row > div,
+#form-instance-upload > .row > div,
+#form-instance-mount > .row > div,
+#form-instance-connection-icmp > .row > div,
+#form-instance-connection-ssh > .row > div,
+#form-instance-roundtrip > .row > div,
+#form-instance-command > .row > div,
+#form-instance-ssh > .row > div,
+#form-instance-action > .row > div,
+#form-instance-resize > .row > div,
+#form-instance-list > .row > div,
+#form-docker-daemon-info > .row > div,
+#form-docker-image-inspect > .row > div,
+#form-docker-image-list > .row > div,
+#form-docker-image-create > .row > div,
+#form-docker-image-create-root > .row > div,
+#form-docker-image-clone > .row > div,
+#form-docker-image-delete > .row > div,
+#form-docker-image-build > .row > div,
+#form-docker-container-start > .row > div,
+#form-docker-container-stop > .row > div,
+#form-docker-container-list > .row > div,
+#form-docker-container-logs > .row > div,
+#form-phases-environment-general-data > .row > div,
+#form-phases-object-status > .row > div,
+#form-phases-object-list > .row > div,
+#form-phases-environment-create > .row > div,
+#form-phases-environment-finalize > .row > div,
+#form-phases-environment-delete > .row > div,
+#form-phases-environment-get > .row > div,
+#form-phases-environments-get > .row > div,
+#form-phases-environment-start > .row > div,
+#form-phases-environment-stop > .row > div,
+#form-phases-environment-run > .row > div,
+#form-phases-cfg-from-app > .row > div,
+#form-phases-cfg-tasklist > .row > div,
+#form-phases-cfg-applist > .row > div,
+#form-phases-cfg-target > .row > div,
+#form-phases-baseimage-create > .row > div,
+#form-phases-baseimage-clone > .row > div,
+#form-phases-baseimage-create-from-app > .row > div,
+#form-phases-baseimage-clone-from-app > .row > div,
+#form-phases-baseimage-finalize > .row > div,
+#form-phases-baseimage-delete > .row > div,
+#form-phases-baseimage-start > .row > div,
+#form-phases-baseimage-stop > .row > div,
+#form-task-start > .row > div,
+#form-task-stop > .row > div,
+#form-task-list > .row > div,
+#form-task-status > .row > div,
+#form-task-get > .row > div,
+#form-main-user-request > .row > div,
+#expert-mode-object-finalize > .row > div,
+#expert-mode-environment-finalize > .row > div,
+#form-viewer-connection > .row > div,
+#form-viewer-disconnection > .row > div,
+#form-viewer-settings > .row > div,
+#form-auth-token > .row > div,
+#form-auth-user > .row > div,
+#form-admin-tools > .row > div,
+#form-apps-tools > .row > div,
+#form-apps-tasklist > .row > div,
+#form-apps-taskstop > .row > div,
+#form-limit-put > .row > div,
+#form-limit-get > .row > div,
+#form-limit-remove > .row > div,
+#form-limit-all > .row > div,
+.form-monitoring-data > .row > div {
+    margin: 10px 0px;
+}
+
+#form-create-vm label,
+#form-delete-vm label,
+#form-stop-vm label,
+#form-start-vm label,
+#list-vm div,
+#list-status-vm div,
+#list-config-vm div,
+#form-config-pre-vm div,
+#form-config-post-vm div,
+#form-snapshot-list-vm div,
+#form-snapshot-create-vm div,
+#form-snapshot-rollback-vm div,
+#form-clone-vm div,
+#form-convert-vm div,
+#form-node-dhcp div,
+#form-node-iptables div,
+#form-instance-app div,
+#form-instance-os-package div,
+#form-instance-upload div,
+#form-instance-mount div,
+#form-instance-connection-icmp div,
+#form-instance-connection-ssh div,
+#form-instance-roundtrip div,
+#form-instance-command div,
+#form-instance-ssh div,
+#form-instance-action div,
+#form-instance-resize div,
+#form-instance-list div,
+#form-docker-daemon-info div,
+#form-docker-image-inspect div,
+#form-docker-image-list div,
+#form-docker-image-create div,
+#form-docker-image-create-root div,
+#form-docker-image-clone div,
+#form-docker-image-delete div,
+#form-docker-image-build div,
+#form-docker-container-start div,
+#form-docker-container-stop div,
+#form-docker-container-list div,
+#form-docker-container-logs div,
+#form-phases-object-status div,
+#form-phases-object-list div,
+#form-phases-environment-create div,
+#form-phases-environment-finalize div,
+#form-phases-environment-delete div,
+#form-phases-environment-get div,
+#form-phases-environments-get div,
+#form-phases-environment-start div,
+#form-phases-environment-stop div,
+#form-phases-environment-run div,
+#form-phases-cfg-from-app div,
+#form-phases-cfg-tasklist div,
+#form-phases-cfg-applist div,
+#form-phases-cfg-target div,
+#form-phases-baseimage-create div,
+#form-phases-baseimage-clone div,
+#form-phases-baseimage-create-from-app div,
+#form-phases-baseimage-clone-from-app div,
+#form-phases-baseimage-finalize div,
+#form-phases-baseimage-delete div,
+#form-phases-baseimage-start div,
+#form-phases-baseimage-stop div,
+#form-task-start div,
+#form-task-stop div,
+#form-task-list div,
+#form-task-status div,
+#form-task-get div,
+#form-main-user-request div,
+#expert-mode-object-finalize div,
+#expert-mode-environment-finalize div,
+#docker-image-list div,
+#form-viewer-disconnection div,
+#form-viewer-connection div,
+#form-viewer-settings div,
+#form-auth-token div,
+#form-auth-user div,
+#form-admin-tools div,
+#form-apps-tools div,
+#form-apps-tasklist div,
+#form-apps-taskstop div,
+#form-limit-put div,
+#form-limit-get div,
+#form-limit-remove div,
+#form-limit-all div,
+.form-monitoring-data div {
+    color: #000 !important;
+}
+
+.scrollbar-menu-apps-main {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollbar-menu-apps-main > div {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+}
+
+#basic-navbar-nav > div > div:nth-child(2) > div {
+    left: -200px !important;
+    width: 600px;
+}
+
+.scrollbar-menu-apps-main > div button {
+    margin: 10px 0px;
+}
+
+.icon-brands {
+    font-size: 1.5rem !important;
+}
+
+.icon-main {
+    padding: 10px 0px;
+}
+
+.icon-main span {
+    padding: 10px 20px;
+}
+
+.disable-edit {
+    pointer-events: none;
+}
+
+.nav.nav-tabs {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.button-dashboard-update button {
+    margin-bottom: 10px;
+}
+
+#monitoring > .nav.nav-tabs > li {
+    width: 33.33%;
+}
+
+#monitoring > .nav.nav-tabs > li > button {
+    width: 100%;
+}
+
+#monitoring > .tab-content > div:nth-child(3) {
+    margin-top: 10px;
+}
+
+.image-list-object {
+    width: 100%;
+    word-break: break-word;
+}
+
+.text-path-break {
+    word-break: break-all;
+}
+
+#user-app-complete > div > div.modal-body > div > div,
+#request-app-complete > div > div.modal-body > div > div,
+#all-files-view > div > div.modal-body > div > div,
+#all-files-details-view > div > div.modal-body > div > div {
+    margin: 15px;
+}
+
+.text-detail-path {
+    max-width: 400px !important;
+    word-wrap: break-word;
+}
+
+.border_apps_bottom {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+@media screen and (max-width: 500px) {
+    #dashboardAdmin .row ul > li > span:not(:first-child),
+    #dashboardAdminSettingsUser .row ul > li > span:not(:first-child),
+    #dashboardAdminSettingsAdmin .row ul > li > span:not(:first-child) {
+        margin: 0px 10px;
+    }
+}
+
+/* Default */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
